@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family:'Courier New', Courier, monospace;
+    padding: 10px;
+    justify-items: center;
+}
+
+.mdiv {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+}
+
+.div {
+    border: 3px solid rgb(0, 0, 0);
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: medium;
+    margin: 0px;
+}
+
+b {
+    font-size: larger;
+}
