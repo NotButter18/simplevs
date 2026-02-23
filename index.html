@@ -3,23 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="stylesheet.css">
+    <title>simplevs</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
 </head>
 <body>
-    <h1>Hello!</h1>
-    <h2>Welcome to thingalinga</h2>
-    <div class="mdiv">
-        <div class="div">
-            <b>business</b>
-            <hr>
-            <p>hello goon</p>
-        </div>
-        <div class="div">
-            <b>manufacturing</b>
-            <hr>
-            <p>hello goon</p>
-        </div>
+    <div class="container">
+        <a rel="noopener noreferrer" target="_blank" href="https://notbutter18.github.io/aboutme/index.html"><p>nimaan made this</p></a>
+        <canvas id="vs">
+            
+        </canvas>
+        <label class="custom-upload" id="cu">
+            <span id="label-text">SELECT AUDIO</span>
+            <div id="input-container">
+                <input type="file" id="input" accept="audio/*">
+            </div>
+        </label>
+        <button id="clear-btn">CLEAR AUDIO</button>
     </div>
+    <script src="audio.js"></script>
 </body>
 </html>
